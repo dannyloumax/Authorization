@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 25px 25px;
+    width: 370px;
+    height: 500px;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+input {
+    width: 320px;
+    border: none;
+    border-bottom: black 1px solid;
+}
+.incorrect-data {
+    width: 188px;
+    height: 16px;
+    padding-bottom: 25px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FF0000;
+}
+button {
+    width: 320px;
+    height: 40px;
+    background: linear-gradient(90deg, #F23737 0%, #FF00B8 100%);
+    border-radius: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 19px;
+}
+.fruits {
+    display: flex;
+    justify-content: center;
+}
